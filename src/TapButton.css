@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic);
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, button {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+a:hover {
+  color: #2ecc71;
+}
+
+.sub-main {
+  display: inline-block;
+}
+
+.button-one {
+  padding: 10px 30px;
+  outline: none;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 9px #95a5a6;
+          box-shadow: 0 9px #95a5a6;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.button-one:hover {
+  background-color: #2ecc71;
+}
+
+.button-one:active {
+  background-color: #2ecc71;
+  -webkit-box-shadow: 0 5px #95a5a6;
+          box-shadow: 0 5px #95a5a6;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+/*# sourceMappingURL=TapButton.css.map */

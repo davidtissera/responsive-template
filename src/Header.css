@@ -1,0 +1,77 @@
+.header {
+  height: 280px;
+  width: 100%;
+  position: absolute;
+}
+
+.header-content {
+  position: absolute;
+  width: 95%;
+  height: 90%;
+  background-color: rgba(200, 200, 200, 0.2);
+  margin-left: 2.5%;
+  top: 15px;
+}
+
+.header-content-photo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(200, 200, 200, 0.2);
+  margin-left: 4%;
+  top: 7%;
+  border-radius: 100%;
+}
+
+.header-content-information-1 {
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  background-color: rgba(200, 200, 200, 0.2);
+  margin-left: 0px;
+  top: 7%;
+  right: 0px;
+  margin-right: 4%;
+}
+
+.header-content-information-2 {
+  position: absolute;
+  width: 60%;
+  height: 40%;
+  background-color: rgba(200, 200, 200, 0.2);
+  margin-left: 0px;
+  top: 52%;
+  right: 0px;
+  margin-right: 4%;
+}
+
+@media screen and (max-width: 890px) {
+  .header {
+    height: 200px;
+  }
+  .header-content-photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    height: 120px;
+  }
+  .header-content-photo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .header {
+    height: 80px;
+  }
+  .header-content-photo {
+    width: 62px;
+    height: 62px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

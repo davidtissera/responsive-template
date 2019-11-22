@@ -1,0 +1,74 @@
+@import "_globalstyles";
+
+$photoWidth: 200px;
+$photoHeight: 200px;
+$photoTop: 7%;
+$headerColor: rgba(200, 200, 200, 0.2);
+
+@mixin headerSettings($position, $width, $height, $backgroundColor, $marginLeft, $top) {
+  position: $position;
+  width: $width;
+  height: $height;
+  background-color: $backgroundColor;
+  margin-left: $marginLeft;
+  top: $top;
+}
+
+.header {
+  height: $headerHeight;
+  width: 100%;
+  position: absolute;
+}
+
+.header-content {
+  @include headerSettings(absolute, 95%, 90%, $headerColor, 2.5%, 15px)
+}
+
+.header-content-photo {
+  @include headerSettings(absolute, $photoWidth, $photoHeight, $headerColor, 4%, $photoTop);
+  border-radius: 100%;
+}
+
+.header-content-information-1 {
+  @include headerSettings(absolute, 60%, 40%, $headerColor, 0px,$photoTop);
+  right: 0px;
+  margin-right: 4%;
+}
+
+.header-content-information-2 {
+  @include headerSettings(absolute, 60%, 40%, $headerColor, 0px, $photoTop+45%);
+  right: 0px;
+  margin-right: 4%;
+}
+
+@media screen and (max-width: 890px) {
+  .header {
+    height: $headerHeight890;
+  }
+  .header-content-photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    height: $headerHeight560;
+  }
+  .header-content-photo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .header {
+    height: $headerHeight340;
+  }
+  .header-content-photo {
+    width: 62px;
+    height: 62px;
+  }
+}
+
+

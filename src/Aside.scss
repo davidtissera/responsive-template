@@ -1,0 +1,51 @@
+@import "./globalstyles";
+
+@mixin asideSettings($width, $height) {
+  position: fixed;
+  width: $width;
+  height: $height;
+  top: 0px;
+  z-index: 2;
+}
+
+.aside-closed {
+  @include asideSettings(50px, 50px);
+  border-radius: 100%;
+  display: none;
+}
+
+
+.aside-opened {
+  @include asideSettings(200px, 800px);
+  @include backgroundColor();
+  @for $i from 1 through 4 {
+    .aside-button-#{$i} {
+      width: 150%;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      margin-bottom: 50px;
+      background-color: rgba(200, 200, 200, 0.5);
+    }
+    .aside-link-#{$i} {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.aside-button-container {
+  position: absolute;
+  left: 23%;
+  top: 130px;
+}
+
+@media screen and (max-width: 890px) {
+  .aside-opened {
+    width: 150px;
+    @for $i from 1 through 4 {
+      .aside-button-#{$i} {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

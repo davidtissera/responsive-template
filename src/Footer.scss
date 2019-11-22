@@ -1,0 +1,65 @@
+@import "_globalstyles";
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: $footerHeight;
+  background-color: rgba(200, 200, 200, 0.2);
+}
+
+.footer-information-1 {
+  top: 20px;
+  position: absolute;
+  left: 30px;
+  width: 42%;
+  height: 82%;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+.footer-information-2 {
+  top: 20px;
+  position: absolute;
+  right: 30px;
+  width: 42%;
+  height: 82%;
+  background-color: rgba(200, 200, 200, 0.3);
+}
+
+@media screen and (max-width: 890px) {
+  .footer {
+    height: $footerHeight890;
+  }
+  .footer-information-1 {
+    height: 72%;
+  }
+  .footer-information-2 {
+    height: 72%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer {
+    height: $footerHeight560;
+  }
+  .footer-information-1 {
+    width: 40%;
+    height: 62%;
+  }
+  .footer-information-2 {
+    width: 40%;
+    height: 62%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .footer {
+    height: $footerHeight340;
+  }
+  .footer-information-1 {
+    height: 52%;
+  }
+  .footer-information-2 {
+    height: 52%;
+  }
+}
