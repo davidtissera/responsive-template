@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Header from './Header';
-import Aside from './Aside';
-import Nav from './Nav';
-import Content from './Content';
-import Footer from './Footer';
+import Header from '../level-1/Header'
+import Aside from '../level-1/Aside'
+import Nav from '../level-1/Nav';
+import Content from '../level-1/Content';
+import Footer from '../level-1/Footer';
 
 class Home extends Component {
 

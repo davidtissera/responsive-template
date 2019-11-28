@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import "./MenuButton.css";
+import './MenuButton.css'
 
 class MenuButton extends Component {
   render() {
     const { onClick } = this.props
-
+    
     return (
       <div class="container">
         <button class="learn-more" onClick={onClick}>

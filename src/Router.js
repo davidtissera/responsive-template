@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Redirect, Switch } from 'react-router-dom';
-import Home from './Home';
+import Home from '../src/level-0/Home';
 
 class Router extends Component {
   render() {

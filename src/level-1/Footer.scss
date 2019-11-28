@@ -1,0 +1,57 @@
+@import "../globalstyles";
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: $footerHeight;
+  background-color: $backgroundTwo;
+}
+
+@for $i from 1 through 2 {
+  .footer-information-#{$i} {
+    font-size: 2rem;
+    text-align: left;
+    margin: 2rem;
+    position: absolute;
+    width: 40%;
+    height: 90%;
+    background-color: $backgroundThree;
+    overflow: hidden;
+  }
+}
+
+.footer-information-1 {
+  left: 2rem;
+}
+.footer-information-2 {
+  right: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer {
+    height: 20rem;
+  }
+  .footer-information-1 {
+    width: 40%;
+    margin: 0.5rem;
+    margin-top: 1rem;
+  }
+  .footer-information-2 {
+    width: 40%;
+    margin: 0.5rem;
+    margin-top: 1rem;
+  }
+}

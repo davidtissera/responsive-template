@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Information from './Information';
-import './Header.css';
+import Information from '../level-2/Information';
+import Lorem from '../level-2/lorem';
+import './Header.css'
 
 class Header extends Component {
   constructor(props){
@@ -34,14 +35,13 @@ class HeaderContent extends Component {
         <div className={`${componentName}-photo`}>
         </div>
         <Information
+          content={Lorem}
           className={`${componentName}-information-1`}
-        />
-        <Information
-          className={`${componentName}-information-2`}
         />
       </div>
     );
   }
 }
+
 
 export default Header;

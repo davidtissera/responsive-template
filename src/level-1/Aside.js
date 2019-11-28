@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import MenuButton from './MenuButton';
-import './Aside.css';
+import MenuButton from '../level-2/MenuButton';
+import '../level-1/Aside.css';
 
 class Aside extends Component {
   constructor(props){

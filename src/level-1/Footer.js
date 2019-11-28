@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Information from './Information';
+import Information from '../level-2/Information';
+import Lorem from '../level-2/lorem';
 import './Footer.css';
 
 class Footer extends Component {
@@ -11,11 +12,14 @@ class Footer extends Component {
   }
   render(){
     const { componentName } = this.state
-    return(
+
+    return (
       <div className={componentName}>
         <Information
+        content={Lorem}
         className={`${componentName}-information-1`}/>
         <Information
+        content={Lorem}
         className={`${componentName}-information-2`}/>
       </div>
     );

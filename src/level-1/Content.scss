@@ -1,0 +1,56 @@
+@import "../globalstyles";
+
+.content {
+  position: absolute;
+  top: $headerHeight + $navHeight + 20rem;
+  background-color: $backgroundTwo;
+  width: 100%;
+  height: $contentHeight;
+}
+
+.content-resize {
+  position: absolute;
+  top: $headerHeight + $navHeight + 5rem;
+  width: 100%;
+  background-color: $backgroundTwo;
+  height: $contentHeight;
+}
+
+.content-info-container {
+  width: 100%;
+  position: absolute;
+  top: 5rem;
+  margin-bottom: 50px;
+}
+
+@for $i from 1 through 4 {
+  .content-information-#{$i} {
+    margin-top: 18vw;
+    width: 90%;
+    margin-left: 5%;
+    height: 40vw;
+    background-color: rgba(200, 200, 200, 0.2);
+    overflow: hidden;
+    text-align: left;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .content-resize {
+    top: 25rem + 8rem + 10rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .content-resize {
+    top: 25rem + 8rem + 10rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .content-resize {
+    top: 25rem + 2rem + 5rem;
+  }
+}

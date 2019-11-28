@@ -1,18 +1,17 @@
-$headerHeight: 280px;
-$headerHeight890: 200px;
-$headerHeight560: 120px;
-$headerHeight340: 80px;
-$navHeight: 9vw;
-$navHeight560: 60px;
+$headerHeight: 28rem;
+$navHeight: 9rem;
 $contentHeight: 275vw;
-$footerHeight: 200px;
-$footerHeight890: 120px; 
-$footerHeight560: 80px;
-$footerHeight340: 60px;
+$footerHeight: 40rem;
 
+$backgroundOne: rgba(200, 200, 200, 0.2);
+$backgroundTwo: rgba(200, 200, 200, 0.3);
+$backgroundThree: rgba(200, 200, 200, 0.4);
+$backgroundPink: rgb(238, 122, 125);
 
 @mixin backgroundColor() {
   background: #FF416C;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+

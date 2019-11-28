@@ -1,8 +1,13 @@
 @import "./globalstyles";
 
 html {
-  background-color: #232323;
+  font-size: 62%;
 }
+
+* {
+  font-size: 15rem;
+}
+
 
 .App {
   position: absolute;
@@ -11,23 +16,23 @@ html {
   color: white;
   text-align: center;
   @include backgroundColor();
-  height: $navHeight + $contentHeight + 150vw;
+  height: 400vw;
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 900px) {
   .App {
-    height: $navHeight + $contentHeight;
+    height: 420vw;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
   .App {
-    height: $navHeight + $contentHeight;
+    height: 440vw;
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 700px) {
   .App {
-    height: $navHeight + $contentHeight;
+    height: 460vw;
   }
 }

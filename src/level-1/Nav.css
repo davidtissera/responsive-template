@@ -1,0 +1,457 @@
+.nav {
+  top: 28rem;
+  background-color: #ee7a7d;
+  height: 9rem;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5rem;
+  border-bottom-color: #eb6367;
+}
+
+.nav-scrolled {
+  top: 0rem;
+  background-color: #ee7a7d;
+  height: 9rem;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5rem;
+  border-bottom-color: #eb6367;
+}
+
+.fa-bars {
+  font-size: 3rem;
+  position: absolute;
+  top: 1.7rem;
+  right: 2rem;
+  cursor: -webkit-grab;
+  cursor: grab;
+  display: none;
+  z-index: 1;
+}
+
+.button-container {
+  display: block;
+  height: 9rem;
+}
+
+.button-container .button-1 {
+  font-size: 2rem;
+  height: 8rem;
+  background-color: rgba(200, 200, 200, 0.4);
+  width: 15rem;
+  top: -9.2rem;
+  margin-right: 8rem;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.button-container .link-1 {
+  padding: 20%;
+  font-size: 2rem;
+}
+
+.button-container .button-2 {
+  font-size: 2rem;
+  height: 8rem;
+  background-color: rgba(200, 200, 200, 0.4);
+  width: 15rem;
+  top: -9.2rem;
+  margin-right: 8rem;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.button-container .link-2 {
+  padding: 20%;
+  font-size: 2rem;
+}
+
+.button-container .button-3 {
+  font-size: 2rem;
+  height: 8rem;
+  background-color: rgba(200, 200, 200, 0.4);
+  width: 15rem;
+  top: -9.2rem;
+  margin-right: 8rem;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.button-container .link-3 {
+  padding: 20%;
+  font-size: 2rem;
+}
+
+.button-container .button-4 {
+  font-size: 2rem;
+  height: 8rem;
+  background-color: rgba(200, 200, 200, 0.4);
+  width: 15rem;
+  top: -9.2rem;
+  margin-right: 8rem;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.button-container .link-4 {
+  padding: 20%;
+  font-size: 2rem;
+}
+
+.button-container .button-4 {
+  margin-right: 0rem;
+}
+
+@media screen and (max-width: 1094px) {
+  .button-container .button-1 {
+    height: 7rem;
+    width: 14rem;
+  }
+  .button-container .button-2 {
+    height: 7rem;
+    width: 14rem;
+  }
+  .button-container .button-3 {
+    height: 7rem;
+    width: 14rem;
+  }
+  .button-container .button-4 {
+    height: 7rem;
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .button-container .button-1 {
+    height: 6rem;
+    width: 13rem;
+    margin-right: 6rem;
+  }
+  .button-container .link-1 {
+    font-size: 1.8rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-2 {
+    height: 6rem;
+    width: 13rem;
+    margin-right: 6rem;
+  }
+  .button-container .link-2 {
+    font-size: 1.8rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-3 {
+    height: 6rem;
+    width: 13rem;
+    margin-right: 6rem;
+  }
+  .button-container .link-3 {
+    font-size: 1.8rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-4 {
+    height: 6rem;
+    width: 13rem;
+    margin-right: 6rem;
+  }
+  .button-container .link-4 {
+    font-size: 1.8rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .button-container .button-1 {
+    height: 5rem;
+    width: 12rem;
+    margin-right: 5rem;
+  }
+  .button-container .link-1 {
+    font-size: 1.7rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-2 {
+    height: 5rem;
+    width: 12rem;
+    margin-right: 5rem;
+  }
+  .button-container .link-2 {
+    font-size: 1.7rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-3 {
+    height: 5rem;
+    width: 12rem;
+    margin-right: 5rem;
+  }
+  .button-container .link-3 {
+    font-size: 1.7rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-4 {
+    height: 5rem;
+    width: 12rem;
+    margin-right: 5rem;
+  }
+  .button-container .link-4 {
+    font-size: 1.7rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .button-container .button-1 {
+    height: 4rem;
+    width: 10rem;
+    margin-right: 4rem;
+  }
+  .button-container .link-1 {
+    font-size: 1.5rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-2 {
+    height: 4rem;
+    width: 10rem;
+    margin-right: 4rem;
+  }
+  .button-container .link-2 {
+    font-size: 1.5rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-3 {
+    height: 4rem;
+    width: 10rem;
+    margin-right: 4rem;
+  }
+  .button-container .link-3 {
+    font-size: 1.5rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+  .button-container .button-4 {
+    height: 4rem;
+    width: 10rem;
+    margin-right: 4rem;
+  }
+  .button-container .link-4 {
+    font-size: 1.5rem;
+  }
+  .button-container .button-4 {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .nav {
+    top: 25rem;
+    height: 6rem;
+  }
+  .nav-scrolled {
+    height: 6rem;
+  }
+  .nav-clicked {
+    top: 28rem;
+    background-color: #ee7a7d;
+    height: 36rem;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5rem;
+    border-bottom-color: #eb6367;
+  }
+  .fa-bars {
+    display: inline;
+  }
+  .nav .button-container {
+    display: none;
+  }
+  .nav-scrolled .button-container {
+    display: none;
+    background-color: #ee7a7d;
+  }
+  .nav-clicked {
+    top: 25rem;
+    height: 27rem;
+  }
+  .nav-clicked .button-container {
+    height: 27rem;
+  }
+  .nav-clicked .button-container .button-1 {
+    top: 2.5rem;
+    display: block;
+    margin-bottom: 2rem;
+    margin-left: 2.5%;
+  }
+  .nav-scrolled-clicked {
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    z-index: 1;
+  }
+  .nav-scrolled-clicked .button-container {
+    background-color: #ee7a7d;
+    height: 27rem;
+  }
+  .nav-scrolled-clicked .button-container .button-1 {
+    top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5%;
+    display: block;
+  }
+  .nav-clicked .button-container {
+    height: 27rem;
+  }
+  .nav-clicked .button-container .button-2 {
+    top: 2.5rem;
+    display: block;
+    margin-bottom: 2rem;
+    margin-left: 2.5%;
+  }
+  .nav-scrolled-clicked {
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    z-index: 1;
+  }
+  .nav-scrolled-clicked .button-container {
+    background-color: #ee7a7d;
+    height: 27rem;
+  }
+  .nav-scrolled-clicked .button-container .button-2 {
+    top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5%;
+    display: block;
+  }
+  .nav-clicked .button-container {
+    height: 27rem;
+  }
+  .nav-clicked .button-container .button-3 {
+    top: 2.5rem;
+    display: block;
+    margin-bottom: 2rem;
+    margin-left: 2.5%;
+  }
+  .nav-scrolled-clicked {
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    z-index: 1;
+  }
+  .nav-scrolled-clicked .button-container {
+    background-color: #ee7a7d;
+    height: 27rem;
+  }
+  .nav-scrolled-clicked .button-container .button-3 {
+    top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5%;
+    display: block;
+  }
+  .nav-clicked .button-container {
+    height: 27rem;
+  }
+  .nav-clicked .button-container .button-4 {
+    top: 2.5rem;
+    display: block;
+    margin-bottom: 2rem;
+    margin-left: 2.5%;
+  }
+  .nav-scrolled-clicked {
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    z-index: 1;
+  }
+  .nav-scrolled-clicked .button-container {
+    background-color: #ee7a7d;
+    height: 27rem;
+  }
+  .nav-scrolled-clicked .button-container .button-4 {
+    top: 2.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    top: 23rem;
+  }
+  .nav-clicked {
+    top: 23rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .nav {
+    height: 5rem;
+    top: 18.5rem;
+  }
+  .nav-scrolled {
+    height: 5rem;
+  }
+  .fa-bars {
+    top: 1rem;
+  }
+  .nav-clicked {
+    height: 22rem;
+    top: 19rem;
+  }
+  .nav-clicked .button-container {
+    height: 19rem;
+  }
+  .nav-clicked .button-1 {
+    width: 10rem;
+    height: 3rem;
+  }
+  .nav-clicked .button-container {
+    height: 19rem;
+  }
+  .nav-clicked .button-2 {
+    width: 10rem;
+    height: 3rem;
+  }
+  .nav-clicked .button-container {
+    height: 19rem;
+  }
+  .nav-clicked .button-3 {
+    width: 10rem;
+    height: 3rem;
+  }
+  .nav-clicked .button-container {
+    height: 19rem;
+  }
+  .nav-clicked .button-4 {
+    width: 10rem;
+    height: 3rem;
+  }
+}
+/*# sourceMappingURL=Nav.css.map */

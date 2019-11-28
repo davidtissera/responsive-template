@@ -1,5 +1,9 @@
 html {
-  background-color: #232323;
+  font-size: 62%;
+}
+
+* {
+  font-size: 15rem;
 }
 
 .App {
@@ -14,24 +18,24 @@ html {
   background: -webkit-gradient(linear, left top, right top, from(#FF4B2B), to(#FF416C));
   background: linear-gradient(to right, #FF4B2B, #FF416C);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  height: 434vw;
+  height: 400vw;
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 900px) {
   .App {
-    height: 284vw;
+    height: 420vw;
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 800px) {
   .App {
-    height: 284vw;
+    height: 440vw;
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 700px) {
   .App {
-    height: 284vw;
+    height: 460vw;
   }
 }
 /*# sourceMappingURL=App.css.map */
